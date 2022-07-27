@@ -42,8 +42,8 @@ facebook_friends=["Loai","Yonathan","Adan", "George", "Fouad", "Celina"]
 
 2. Create/Define a new *route* in `app.py` and call it `home`.
     - You should link `home` *route* to `home.html`.
+    - Make sure to replace `render_template('home.html')` with `redirect(url_for('home'))` in the `login` *route*.
     - **Checkpoint!** Test out your website, make sure it works properly.
-
 
     
 3. Using `facebook_friends` list, **pass it** to `home.html` using the `home` function/route in `app.py`.
